@@ -2,25 +2,25 @@ PODS:
   - Ads-Global (7.4.0.7):
     - Ads-Global/BUAdSDK (= 7.4.0.7)
   - Ads-Global/BUAdSDK (7.4.0.7)
-  - CubeXKit (1.0.1)
-  - CuBidKit (1.0.1)
+  - CubeXKit (1.0.2)
+  - CuBidKit (1.0.2)
   - Google-Mobile-Ads-SDK (12.6.0):
     - GoogleUserMessagingPlatform (>= 1.1)
   - GoogleMobileAdsMediationPangle (7.4.0.7.0):
     - Ads-Global (= 7.4.0.7)
     - Google-Mobile-Ads-SDK (~> 12.0)
   - GoogleUserMessagingPlatform (3.1.0)
-  - UAdKit (2.0.1):
+  - UAdKit (2.0.2):
     - Google-Mobile-Ads-SDK (< 12.7.0, >= 12.2.0)
     - GoogleMobileAdsMediationPangle (< 7.4.0.8.0, >= 6.4.1.2.1)
-  - UPanKit (1.0.1):
+  - UPanKit (1.0.2):
     - Ads-Global (< 7.4.0.8, >= 6.4.1.2)
 
 DEPENDENCIES:
-  - CubeXKit (= 1.0.1)
-  - CuBidKit (= 1.0.1)
-  - UAdKit (= 2.0.1)
-  - UPanKit (= 1.0.1)
+  - CubeXKit (= 1.0.2)
+  - CuBidKit (= 1.0.2)
+  - UAdKit (= 2.0.2)
+  - UPanKit (= 1.0.2)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -35,14 +35,14 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Ads-Global: a7e735b3f366f0ded0042fe919ca95dd1f11fd30
-  CubeXKit: 9d97454a8115da2e833644941429b66210558762
-  CuBidKit: 75c9ae85855d6f60f21913415692e4f1f677a82b
+  CubeXKit: 101ec85ea98ba8a746476c43637fd29d99b72024
+  CuBidKit: f1ac79510da67562ec9dff9e68d32da4fe44515d
   Google-Mobile-Ads-SDK: 198db3cfaaafdacf4ebfa273944c844792d483d1
   GoogleMobileAdsMediationPangle: 2f212a58b53625c522bf4caba0e7d80699e6c0b0
   GoogleUserMessagingPlatform: befe603da6501006420c206222acd449bba45a9c
-  UAdKit: 078f8a055fdc148ba56b9e707d065ba29c4c8774
-  UPanKit: 69a356a29b2889a51707ec7f50b220612f6706ff
+  UAdKit: 9b29213c1456e504987ef0c39ef96e8cb99fcb16
+  UPanKit: 2f888c52599c4d9950bc374e598ee94a842ce078
 
-PODFILE CHECKSUM: 3b828accf23d419a3646f3cb5ec7dba809a66c34
+PODFILE CHECKSUM: 9c0f3a601ec55eab344b5e5f75986287a1deb633
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

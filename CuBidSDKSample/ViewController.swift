@@ -8,6 +8,8 @@ import UIKit
 import CuBidKit
 
 class ViewController : UIViewController {
+    
+    lazy var banner : UIView? = UIView()
 
     let segmentedControl : UISegmentedControl = {
         let control = UISegmentedControl(items: ["Banner", "Interstitial", "Reward", "NativeAd"])
@@ -41,7 +43,7 @@ class ViewController : UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         view.addSubview(segmentedControl)
         view.addSubview(containerView)
         view.addSubview(indicator)
@@ -61,7 +63,7 @@ class ViewController : UIViewController {
 
         indicator.center = view.center
         indicator.startAnimating()
-        
+
         initCubid()
     }
     

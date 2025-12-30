@@ -52,16 +52,16 @@ class RewardViewController : UIViewController {
         
         print("test-jennet buttonStack frame : \(buttonStack.frame.width) \(buttonStack.frame.height)")
         
-        loadButton.addTarget(self, action: #selector(loadInterstitial), for: .touchUpInside)
-        showButton.addTarget(self, action: #selector(showInterstitial), for: .touchUpInside)
+        loadButton.addTarget(self, action: #selector(loadReward), for: .touchUpInside)
+        showButton.addTarget(self, action: #selector(showReward), for: .touchUpInside)
     }
     
-    @objc func loadInterstitial(){
+    @objc func loadReward(){
         reward.delegate = self
         reward.loadAd()
     }
     
-    @objc func showInterstitial(){
+    @objc func showReward(){
         reward.showAd(viewController: self)
     }
 }

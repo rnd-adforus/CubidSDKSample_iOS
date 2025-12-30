@@ -57,11 +57,13 @@ class NativeAdViewController : UIViewController {
         
         view.addSubview(loadButton)
         view.addSubview(nativeAdView)
-        nativeAdView.addSubview(nativeTitle)
-        nativeAdView.addSubview(nativeDescription)
-        nativeAdView.addSubview(nativeIconView)
-        nativeAdView.addSubview(nativeMediaView)
-        nativeAdView.addSubview(nativeCallToAction)
+        
+        let containerView = nativeAdView.containerView        
+        containerView.addSubview(nativeTitle)
+        containerView.addSubview(nativeDescription)
+        containerView.addSubview(nativeIconView)
+        containerView.addSubview(nativeMediaView)
+        containerView.addSubview(nativeCallToAction)
         
         loadButton.translatesAutoresizingMaskIntoConstraints = false
         nativeAdView.translatesAutoresizingMaskIntoConstraints = false
@@ -79,25 +81,25 @@ class NativeAdViewController : UIViewController {
             nativeAdView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 8),
             nativeAdView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -8),
             nativeAdView.heightAnchor.constraint(equalToConstant: 420),
-            nativeIconView.topAnchor.constraint(equalTo: nativeAdView.topAnchor, constant: 8),
-            nativeIconView.leadingAnchor.constraint(equalTo: nativeAdView.leadingAnchor, constant: 8),
+            nativeIconView.topAnchor.constraint(equalTo: containerView.topAnchor, constant: 8),
+            nativeIconView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 8),
             nativeIconView.widthAnchor.constraint(equalToConstant: 60),
             nativeIconView.heightAnchor.constraint(equalTo: nativeIconView.widthAnchor, multiplier: 1),
             nativeTitle.topAnchor.constraint(equalTo: nativeIconView.topAnchor, constant: 8),
             nativeTitle.leadingAnchor.constraint(equalTo: nativeIconView.trailingAnchor, constant: 8),
-            nativeTitle.trailingAnchor.constraint(equalTo: nativeAdView.trailingAnchor, constant: -8),
+            nativeTitle.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -8),
             nativeTitle.heightAnchor.constraint(equalTo: nativeIconView.heightAnchor, multiplier: 0.4),
             nativeDescription.leadingAnchor.constraint(equalTo: nativeTitle.leadingAnchor),
             nativeDescription.trailingAnchor.constraint(equalTo: nativeTitle.trailingAnchor),
             nativeDescription.topAnchor.constraint(equalTo: nativeTitle.bottomAnchor, constant: 2),
             nativeDescription.heightAnchor.constraint(equalTo: nativeIconView.heightAnchor, multiplier: 0.4),
-            nativeMediaView.leadingAnchor.constraint(equalTo: nativeAdView.leadingAnchor, constant: 8),
-            nativeMediaView.trailingAnchor.constraint(equalTo: nativeAdView.trailingAnchor, constant: -8),
+            nativeMediaView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 8),
+            nativeMediaView.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -8),
             nativeMediaView.topAnchor.constraint(equalTo: nativeIconView.bottomAnchor, constant: 8),
             nativeMediaView.heightAnchor.constraint(equalTo: nativeMediaView.widthAnchor, multiplier: 0.5),
             nativeCallToAction.topAnchor.constraint(equalTo: nativeMediaView.bottomAnchor, constant: 2),
-            nativeCallToAction.leadingAnchor.constraint(equalTo: nativeAdView.leadingAnchor, constant: 8),
-            nativeCallToAction.trailingAnchor.constraint(equalTo: nativeAdView.trailingAnchor, constant: -8),
+            nativeCallToAction.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 8),
+            nativeCallToAction.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -8),
             nativeCallToAction.heightAnchor.constraint(equalTo: nativeCallToAction.widthAnchor, multiplier: 0.15)
         ])
         
@@ -106,11 +108,13 @@ class NativeAdViewController : UIViewController {
     
     
     @objc func touchLoadNative(){
-        nativeAd.delegate = self
-        nativeAdView.isUserInteractionEnabled = true
-        nativeAd.viewElements = CuBidNativeAdElementsBinder(container: nativeAdView, mediaView: nativeMediaView, iconView: nativeIconView, titleLabel: nativeTitle, describeLabel: nativeDescription, callToActionButton: nativeCallToAction, priceLabel: nil)
         
-        nativeAd.loadAd()
+        nativeAd.delegate = self
+ 
+        Task { @MainActor in
+            nativeAd.viewElements = CuBidNativeAdElementsBinder(container: nativeAdView, mediaView: nativeMediaView, iconView: nativeIconView, titleLabel: nativeTitle, describeLabel: nativeDescription, callToActionButton: nativeCallToAction, priceLabel: nil)
+            nativeAd.loadAd()
+        }
     }
     
 }
