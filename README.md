@@ -11,7 +11,7 @@
 
 ### 바로가기
 1. [Configuration](#chapter-1)
-2. [BuildSetting](#chapter-2)
+2. [GADApplicationIdentifier](#chapter-2)
 3. [SDK 초기화](#chapter-3)
 4. [광고 호출](#chapter-4)  
    4-1. [배너](#chapter-4-1)  
