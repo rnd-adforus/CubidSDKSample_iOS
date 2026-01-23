@@ -68,8 +68,9 @@ class InterstitialViewController : UIViewController {
 }
 
 extension InterstitialViewController : CuBidInterstitialDelegate {
-    func cuBidenterstitialDidLoad(_ interstitial: CuBidKit.CuBidInterstitial) {
-        print("cuBidenterstitialDidLoad")
+    func cuBidInterstitialDidLoad(_ interstitial: CuBidKit.CuBidInterstitial) {
+        print("cuBidInterstitialDidLoad")
+
     }
     
     func cuBidInterstitial(_ interstitial: CuBidKit.CuBidInterstitial, didFailWithError: any Error) {

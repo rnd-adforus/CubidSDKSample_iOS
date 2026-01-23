@@ -112,7 +112,7 @@ class NativeAdViewController : UIViewController {
         nativeAd.delegate = self
  
         Task { @MainActor in
-            nativeAd.viewElements = CuBidNativeAdElementsBinder(container: nativeAdView, mediaView: nativeMediaView, iconView: nativeIconView, titleLabel: nativeTitle, describeLabel: nativeDescription, callToActionButton: nativeCallToAction, priceLabel: nil)
+            nativeAd.viewElements = CuBidNativeAdElementsBinder(cubidNativeView: nativeAdView, mediaView: nativeMediaView, iconView: nativeIconView, titleLabel: nativeTitle, describeLabel: nativeDescription, callToActionButton: nativeCallToAction, priceLabel: nil)
             nativeAd.loadAd()
         }
     }
@@ -120,19 +120,25 @@ class NativeAdViewController : UIViewController {
 }
 
 extension NativeAdViewController: CuBidNativeAdDelegate {
-    func cuBidenNativeAdDidLoad(_ nativeAd: CuBidKit.CuBidNativeAd) {
-        print("cuBidenNativeAdDidLoad")
+    func cuBidNativeAdDidLoad(_ nativeAd: CuBidKit.CuBidNativeAd) {
+        print("cuBidNativeAdDidLoad")
+
     }
     
-    func cuBidenNativeAd(_ nativeAd: CuBidKit.CuBidNativeAd, didFailWithError error: any Error) {
-        print("cuBidenNativeAd didFailWithError : \(error.localizedDescription)")
+    func cuBidNativeAd(_ nativeAd: CuBidKit.CuBidNativeAd, didFailWithError error: any Error) {
+        print("cuBidNativeAd didFailWithError : \(error.localizedDescription)")
+
     }
     
-    func cuBidenNativeAdDidClick(_ nativeAd: CuBidKit.CuBidNativeAd) {
-        print("cuBidenNativeAdDidClick")
+    func cuBidNativeAdDidClick(_ nativeAd: CuBidKit.CuBidNativeAd) {
+        print("cuBidNativeAdDidClick")
+
     }
     
-    func cuBidenNativeAdDidPresentScreen(_ nativeAd: CuBidKit.CuBidNativeAd) {
-        print("cuBidenNativeAdDidPresentScreen")
+    func cuBidNativeAdDidPresentScreen(_ nativeAd: CuBidKit.CuBidNativeAd) {
+        print("cuBidNativeAdDidPresentScreen")
+
     }
+    
+
 }
