@@ -609,6 +609,7 @@ cubidInterstitial = nil
 ```
 
 <br>
+
 ### 5. Privacy <a id="chapter-5">
 #### [아동 타겟 설정 - COPPA] <a id="chapter-5-1">
 **아동용 앱 또는 아동 타겟 사용에 따라 개인정보보호를 위해 다음의 인터페이스 설정을 추가해주세요**
