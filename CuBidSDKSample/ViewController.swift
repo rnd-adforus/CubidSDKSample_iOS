@@ -97,14 +97,12 @@ class ViewController : UIViewController {
     }
     
     func displayChildViewController(_ vc: UIViewController) {
-        // 기존 child 제거
         children.forEach { childVC in
             childVC.willMove(toParent: nil)
             childVC.view.removeFromSuperview()
             childVC.removeFromParent()
         }
         
-        // 새로운 child 추가
         addChild(vc)
         vc.view.frame = containerView.bounds
         vc.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
@@ -117,6 +115,8 @@ class ViewController : UIViewController {
 extension ViewController : CuBidInitializable {
     
     func initCubid(){
+        // 아동용 앱, 아동 사용자 설정으로 다음의 프로퍼티를 true로 설정해주세요.
+//        CuBidSettings.isChild = true
         CuBidSettings.initialize(setId: "93O4czothe", userId: "CuBider", delegate: self)
     }
     

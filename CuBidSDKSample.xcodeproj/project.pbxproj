@@ -192,7 +192,6 @@
 				594E7EDE2E853A5700765686 /* Sources */,
 				594E7EDF2E853A5700765686 /* Frameworks */,
 				594E7EE02E853A5700765686 /* Resources */,
-				58CAA379839B568B8B62092A /* [CP] Embed Pods Frameworks */,
 				59F512D82EEAF6E400A3AB3C /* Embed Frameworks */,
 				0A95149D6D64BA625A8F9BFE /* [CP] Copy Pods Resources */,
 			);
@@ -238,7 +237,6 @@
 				594E7EFE2E853A5800765686 /* Sources */,
 				594E7EFF2E853A5800765686 /* Frameworks */,
 				594E7F002E853A5800765686 /* Resources */,
-				C10204C5A2FBD74FD01787A7 /* [CP] Embed Pods Frameworks */,
 				C00C70D6C21C7AACE5FDD351 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -340,23 +338,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		58CAA379839B568B8B62092A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		73C1FCDBEBAD27AC76D11541 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,23 +375,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C10204C5A2FBD74FD01787A7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C288EE3D5795835307967DA7 /* [CP] Check Pods Manifest.lock */ = {
@@ -509,7 +473,6 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CuBidSDKSample/Info.plist;
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "맞춤형광고 허용";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -521,16 +484,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					CuBidKit,
-					"-framework",
-					UPanKit,
-					"-framework",
-					CubeXKit,
-					"-framework",
-					UAdKit,
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = adforus.CuBidSDKSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -551,7 +505,6 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CuBidSDKSample/Info.plist;
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "맞춤형광고 허용";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -563,16 +516,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					CuBidKit,
-					"-framework",
-					UPanKit,
-					"-framework",
-					CubeXKit,
-					"-framework",
-					UAdKit,
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = adforus.CuBidSDKSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

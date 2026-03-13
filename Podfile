@@ -6,10 +6,10 @@ target 'CuBidSDKSample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   
-  pod 'CuBidKit', '1.1.0'
-  pod 'UAdKit', '2.0.3'
-  pod 'UPanKit', '1.0.3'
-  pod 'CubeXKit', '1.0.3'
+  pod 'CuBidKit', '1.2.1'
+  pod 'UAdKit', '2.1.1'
+  pod 'UPanKit/Adapters/Admob', '1.1.1'
+  pod 'CubeXKit', '1.1.1'
 
   # Pods for CuBidSDKSample
 
