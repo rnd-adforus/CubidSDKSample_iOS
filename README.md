@@ -286,8 +286,9 @@ GADApplicationIdentifier는 Google Mobile Ads SDK 초기화 및 광고 요청을
 # 
 
 ### 3. SDK 초기화 <a id="chapter-3"/>
-광고를 호출하기 전에 반드시 `CuBidSettings.initialize()` 메서드를 호출하여 SDK를 초기화해야 합니다. [파라미터 명세 바로가기](https://github.com/rnd-adforus/CubidSDKSample/wiki/CuBid-SDK-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0-%EB%AA%85%EC%84%B8) <br>
-이 메서드는 SDK 초기화를 수행하며, 성공 또는 실패 여부를 콜백을 통해 전달합니다.
+광고를 호출하기 전에 반드시 `CuBidSettings.initialize()` 메서드를 호출하여 SDK를 초기화해야 합니다. <br>
+이 메서드는 SDK 초기화를 수행하며, 성공 또는 실패 여부를 콜백을 통해 전달합니다. <br>
+호출에 필요한 파라미터 상세 정보는 [[CuBid SDK 파라미터 명세]](https://github.com/rnd-adforus/CubidSDKSample/wiki/CuBid-SDK-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0-%EB%AA%85%EC%84%B8)에서 확인해주세요. <br>
 >⚠️ 주의: `UAdKit`, `CubeXKit`, `UPanKit` 중 하나 이상의 Adapter 라이브러리가 프로젝트에 포함되어 있지 않거나,  
 광고 인스턴스(CuBidBanner, CuBidInterstitial, CuBidReward, CuBidNativeAd)는 SDK 초기화 완료 이후에만 생성/호출해야 광고 로드를 실행할 수 있습니다.
  
@@ -309,6 +310,7 @@ extension ViewController : CuBidInitializable {
 #   
 
 ### 4. 광고 호출 <a id="chapter-4"/>
+배너, 전면, 리워드 네이티브 타입을 다음과 같이 게재합니다. 호출에 필요한 파라미터 상세 정보는 [[CuBid SDK 파라미터 명세]](https://github.com/rnd-adforus/CubidSDKSample/wiki/CuBid-SDK-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0-%EB%AA%85%EC%84%B8)에서 확인해주세요. <br>
 ### 4-1. 배너 <a id="chapter-4-1">
 #### [광고 로드 및 콜백 리스너 설정]
 `CubidBanner`는 광고를 표시할 UIView 타입의 container를 필수 요구합니다. `loadAd()` 호출 이후 `cuBidBannerDidLoad()` 콜백 시점에 광고 뷰가 container 내부에 자동으로 주입됩니다.
@@ -492,7 +494,7 @@ nativeAd = nil
 
 ### 4-3. 리워드 <a id="chapter-4-3">
 #### [광고 로드 및 콜백 리스너 설정] <a id="chapter-4-3-1">
-**리워드 광고는 `CubidReward` 인스턴스를 통해 게재할 수 있습니다.** [파라미터 명세 바로가기](https://github.com/rnd-adforus/CubidSDKSample/wiki/CuBid-SDK-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0-%EB%AA%85%EC%84%B8) <br>
+**리워드 광고는 `CubidReward` 인스턴스를 통해 게재할 수 있습니다.** 
 광고를 로드하려면 `load()` 메소드를 호출하세요.  
 로드가 완료되면 `CuBidRewardDelegate`의 `cuBidRewardDidLoad()` 콜백이 호출되며,  
 이후 `showAd(UIViewController)`를 통해 광고를 표시할 수 있습니다.
