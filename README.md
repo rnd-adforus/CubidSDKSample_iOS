@@ -23,18 +23,45 @@
 ---  
 
 ### 1. Configuration 설정 <a id="chapter-1"/>
-CocoaPods을 사용하여 Podfile을 열고 다음과 같이 target 빌드 내에 의존성을 추가하여 주세요.<br>
+CuBidKit 1.2.1 이상부터 Swift Package Manager를 추가 지원 합니다.  <br>
+다음의 CocoaPods과 Swift Package Manager 중 하나를  채택하여 의존서을 추가하여 주세요. <br>
+
 #### 1-1. Dependency Settings
+<b>[CocoaPods]</b><br>
 ```ruby
-// [Podfile] 
+# [Podfile] 
   use_frameworks!
 
-  pod 'CuBidKit', '1.2.1' // Core module
-  pod 'UAdKit', '2.1.1' // Adapter module
-  pod 'UPanKit/Adapters/Admob', '1.1.1' // Adapter module + subspec 
-  pod 'CubeXKit', '1.1.1' // Adapter module
+  pod 'CuBidKit', '1.2.1' # Core module
+  pod 'UAdKit', '2.1.1' # Adapter module
+  pod 'UPanKit/Adapters/Admob', '1.1.1' # Adapter module + subspec 
+  pod 'CubeXKit', '1.1.1' # Adapter module
 ``` 
 </br>
+
+OR<br>
+
+<b>[Swift Package Manager]</b><br>
+Xcode 네비게이션 메뉴에서 File > Add Package Dependencies 탭으로 이동하고 다음의 경로를 검색하여 각 의존성을 추가하여 주세요. <br> <br>
+<b>Core module</b>
+- CuBidKit 
+```ruby
+https://github.com/rnd-adforus/cubid-ios-sdk-spm.git
+``` 
+<b>Adapter module</b>
+ - CuBid-Mediation-Admob(UAdKit)
+```ruby
+https://github.com/rnd-adforus/cubid-mediation-admob-ios-sdk-spm.git
+```
+- CuBid-Mediation-Pangle(UPan)
+```ruby
+https://github.com/rnd-adforus/cubid-mediation-pangle-ios-sdk-spm.git
+```
+- CuBid-Mediation-CubeX(CubeX)
+```ruby
+https://github.com/rnd-adforus/cubid-mediation-cubex-ios-sdk-spm.git
+```
+
 
 #### 1-2. Info.plist 설정
 ##### 1-2-1.SDKAdNetwork ID 설정
