@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E8E7A2DD08FC27DC760D505 /* Pods_CuBidSDKSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A91C4FE95DA467139A9F44 /* Pods_CuBidSDKSample.framework */; };
-		4DC8CFCFE830B16E31C073C0 /* Pods_CuBidSDKSample_CuBidSDKSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF754747DA50AB87564974F /* Pods_CuBidSDKSample_CuBidSDKSampleUITests.framework */; };
-		9C20E4B14771A956B852DF7B /* Pods_CuBidSDKSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2212D7E1DC9550604B642E07 /* Pods_CuBidSDKSampleTests.framework */; };
+		59091D3E2F750C6A007685E7 /* CuBidKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59091D3D2F750C6A007685E7 /* CuBidKit */; };
+		59091D412F750C7C007685E7 /* UPanKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59091D402F750C7C007685E7 /* UPanKit */; };
+		59091D442F750C93007685E7 /* UAdKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59091D432F750C93007685E7 /* UAdKit */; };
+		59091D472F750CA1007685E7 /* CubeXKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59091D462F750CA1007685E7 /* CubeXKit */; };
+		59091D4A2F750D56007685E7 /* CubeXKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59091D492F750D56007685E7 /* CubeXKit */; };
+		59091D4D2F750D61007685E7 /* UAdKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59091D4C2F750D61007685E7 /* UAdKit */; };
+		59091D502F750D73007685E7 /* Admob-Mediation-Pangle in Frameworks */ = {isa = PBXBuildFile; productRef = 59091D4F2F750D73007685E7 /* Admob-Mediation-Pangle */; };
+		59091D522F750D73007685E7 /* UPanKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59091D512F750D73007685E7 /* UPanKit */; };
+		59091D552F750D7D007685E7 /* CuBidKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59091D542F750D7D007685E7 /* CuBidKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,8 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2212D7E1DC9550604B642E07 /* Pods_CuBidSDKSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CuBidSDKSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AF754747DA50AB87564974F /* Pods_CuBidSDKSample_CuBidSDKSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CuBidSDKSample_CuBidSDKSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		594E7EE22E853A5700765686 /* CuBidSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuBidSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		594E7EF82E853A5800765686 /* CuBidSDKSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuBidSDKSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		594E7F022E853A5800765686 /* CuBidSDKSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuBidSDKSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +48,6 @@
 		59D6F6292EBF3FA700A53409 /* UPanKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UPanKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E017D72EB9EFF600CE696D /* UPanKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UPanKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E02C692EBC287800CE696D /* CuBidKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CuBidKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0A91C4FE95DA467139A9F44 /* Pods_CuBidSDKSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CuBidSDKSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -83,7 +86,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E8E7A2DD08FC27DC760D505 /* Pods_CuBidSDKSample.framework in Frameworks */,
+				59091D442F750C93007685E7 /* UAdKit in Frameworks */,
+				59091D412F750C7C007685E7 /* UPanKit in Frameworks */,
+				59091D3E2F750C6A007685E7 /* CuBidKit in Frameworks */,
+				59091D522F750D73007685E7 /* UPanKit in Frameworks */,
+				59091D552F750D7D007685E7 /* CuBidKit in Frameworks */,
+				59091D472F750CA1007685E7 /* CubeXKit in Frameworks */,
+				59091D4D2F750D61007685E7 /* UAdKit in Frameworks */,
+				59091D4A2F750D56007685E7 /* CubeXKit in Frameworks */,
+				59091D502F750D73007685E7 /* Admob-Mediation-Pangle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +102,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C20E4B14771A956B852DF7B /* Pods_CuBidSDKSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +109,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC8CFCFE830B16E31C073C0 /* Pods_CuBidSDKSample_CuBidSDKSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,9 +127,6 @@
 				59BE56552EA787BA0040E699 /* CubeXKit.framework */,
 				59BE56512EA787A90040E699 /* UAdKit.framework */,
 				59BE564E2EA7879F0040E699 /* CubeXKit.framework */,
-				C0A91C4FE95DA467139A9F44 /* Pods_CuBidSDKSample.framework */,
-				3AF754747DA50AB87564974F /* Pods_CuBidSDKSample_CuBidSDKSampleUITests.framework */,
-				2212D7E1DC9550604B642E07 /* Pods_CuBidSDKSampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,12 +159,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 594E7F0B2E853A5800765686 /* Build configuration list for PBXNativeTarget "CuBidSDKSample" */;
 			buildPhases = (
-				F941C0E7CFC09711A44A69C5 /* [CP] Check Pods Manifest.lock */,
 				594E7EDE2E853A5700765686 /* Sources */,
 				594E7EDF2E853A5700765686 /* Frameworks */,
 				594E7EE02E853A5700765686 /* Resources */,
-				E2A153544FBE379F5FDC1E47 /* [CP] Copy Pods Resources */,
-				6531FAE9B25A394A777519C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,7 +179,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 594E7F102E853A5800765686 /* Build configuration list for PBXNativeTarget "CuBidSDKSampleTests" */;
 			buildPhases = (
-				73C1FCDBEBAD27AC76D11541 /* [CP] Check Pods Manifest.lock */,
 				594E7EF42E853A5800765686 /* Sources */,
 				594E7EF52E853A5800765686 /* Frameworks */,
 				594E7EF62E853A5800765686 /* Resources */,
@@ -198,12 +200,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 594E7F132E853A5800765686 /* Build configuration list for PBXNativeTarget "CuBidSDKSampleUITests" */;
 			buildPhases = (
-				C288EE3D5795835307967DA7 /* [CP] Check Pods Manifest.lock */,
 				594E7EFE2E853A5800765686 /* Sources */,
 				594E7EFF2E853A5800765686 /* Frameworks */,
 				594E7F002E853A5800765686 /* Resources */,
-				6C8E872835DF587F703D899B /* [CP] Copy Pods Resources */,
-				2FA09396324DE9423F7E05BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +249,12 @@
 			);
 			mainGroup = 594E7ED92E853A5700765686;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				59091D482F750D56007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-cubex-ios-sdk-spm" */,
+				59091D4B2F750D61007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-admob-ios-sdk-spm" */,
+				59091D4E2F750D72007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-pangle-ios-sdk-spm" */,
+				59091D532F750D7D007685E7 /* XCRemoteSwiftPackageReference "cubid-ios-sdk-spm" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 594E7EE32E853A5700765686 /* Products */;
 			projectDirPath = "";
@@ -285,143 +290,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		2FA09396324DE9423F7E05BA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6531FAE9B25A394A777519C8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6C8E872835DF587F703D899B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		73C1FCDBEBAD27AC76D11541 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CuBidSDKSampleTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C288EE3D5795835307967DA7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CuBidSDKSample-CuBidSDKSampleUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E2A153544FBE379F5FDC1E47 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F941C0E7CFC09711A44A69C5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CuBidSDKSample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		594E7EDE2E853A5700765686 /* Sources */ = {
@@ -483,7 +351,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = adforus.CuBidSDKSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -514,7 +382,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = adforus.CuBidSDKSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -756,6 +624,121 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		59091D3C2F750C6A007685E7 /* XCRemoteSwiftPackageReference "cubid-ios-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rnd-adforus/cubid-ios-sdk-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+		59091D3F2F750C7C007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-pangle-ios-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rnd-adforus/cubid-mediation-pangle-ios-sdk-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.1;
+			};
+		};
+		59091D422F750C93007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-admob-ios-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rnd-adforus/cubid-mediation-admob-ios-sdk-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+		59091D452F750CA1007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-cubex-ios-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rnd-adforus/cubid-mediation-cubex-ios-sdk-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.2;
+			};
+		};
+		59091D482F750D56007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-cubex-ios-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rnd-adforus/cubid-mediation-cubex-ios-sdk-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.2;
+			};
+		};
+		59091D4B2F750D61007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-admob-ios-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rnd-adforus/cubid-mediation-admob-ios-sdk-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+		59091D4E2F750D72007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-pangle-ios-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rnd-adforus/cubid-mediation-pangle-ios-sdk-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.1;
+			};
+		};
+		59091D532F750D7D007685E7 /* XCRemoteSwiftPackageReference "cubid-ios-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rnd-adforus/cubid-ios-sdk-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		59091D3D2F750C6A007685E7 /* CuBidKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59091D3C2F750C6A007685E7 /* XCRemoteSwiftPackageReference "cubid-ios-sdk-spm" */;
+			productName = CuBidKit;
+		};
+		59091D402F750C7C007685E7 /* UPanKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59091D3F2F750C7C007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-pangle-ios-sdk-spm" */;
+			productName = UPanKit;
+		};
+		59091D432F750C93007685E7 /* UAdKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59091D422F750C93007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-admob-ios-sdk-spm" */;
+			productName = UAdKit;
+		};
+		59091D462F750CA1007685E7 /* CubeXKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59091D452F750CA1007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-cubex-ios-sdk-spm" */;
+			productName = CubeXKit;
+		};
+		59091D492F750D56007685E7 /* CubeXKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59091D482F750D56007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-cubex-ios-sdk-spm" */;
+			productName = CubeXKit;
+		};
+		59091D4C2F750D61007685E7 /* UAdKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59091D4B2F750D61007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-admob-ios-sdk-spm" */;
+			productName = UAdKit;
+		};
+		59091D4F2F750D73007685E7 /* Admob-Mediation-Pangle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59091D4E2F750D72007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-pangle-ios-sdk-spm" */;
+			productName = "Admob-Mediation-Pangle";
+		};
+		59091D512F750D73007685E7 /* UPanKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59091D4E2F750D72007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-pangle-ios-sdk-spm" */;
+			productName = UPanKit;
+		};
+		59091D542F750D7D007685E7 /* CuBidKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59091D532F750D7D007685E7 /* XCRemoteSwiftPackageReference "cubid-ios-sdk-spm" */;
+			productName = CuBidKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 594E7EDA2E853A5700765686 /* Project object */;
 }

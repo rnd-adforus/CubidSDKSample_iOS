@@ -1,0 +1,78 @@
+{
+  "originHash" : "0fbe671b0fe8114bc355a4e8c774f35cd9e04a87451f82da6b50ab19ed1d5cb4",
+  "pins" : [
+    {
+      "identity" : "adsglobalpackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bytedance/AdsGlobalPackage.git",
+      "state" : {
+        "revision" : "e1361a81dc161ac7f3adc49f5e97bbe94f172a79",
+        "version" : "7.9.0-release.6"
+      }
+    },
+    {
+      "identity" : "cubid-ios-sdk-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rnd-adforus/cubid-ios-sdk-spm",
+      "state" : {
+        "revision" : "f6d3c590451c13c1b3950b0c866b0f30213f932a",
+        "version" : "1.2.1"
+      }
+    },
+    {
+      "identity" : "cubid-mediation-admob-ios-sdk-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rnd-adforus/cubid-mediation-admob-ios-sdk-spm",
+      "state" : {
+        "revision" : "f72e777107bb8fa55cdef651574f712ca9187976",
+        "version" : "2.5.1"
+      }
+    },
+    {
+      "identity" : "cubid-mediation-cubex-ios-sdk-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rnd-adforus/cubid-mediation-cubex-ios-sdk-spm",
+      "state" : {
+        "revision" : "c5b70b2a7e2fbc783d45ce032eb6fa7473220a51",
+        "version" : "1.1.2"
+      }
+    },
+    {
+      "identity" : "cubid-mediation-pangle-ios-sdk-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rnd-adforus/cubid-mediation-pangle-ios-sdk-spm",
+      "state" : {
+        "revision" : "b290a6e0270006c6e31ebc4fb4ec75765e6fb1bd",
+        "version" : "1.5.1"
+      }
+    },
+    {
+      "identity" : "googleads-mobile-ios-mediation-pangle",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/googleads-mobile-ios-mediation-pangle.git",
+      "state" : {
+        "revision" : "5b5940e56eed49a3c7223359dcdb509aaa26e322",
+        "version" : "7.9.600"
+      }
+    },
+    {
+      "identity" : "swift-package-manager-google-mobile-ads",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
+      "state" : {
+        "revision" : "1a1a5ee5563b8e9ef57ba82c4a570e2e47078dc1",
+        "version" : "13.0.0"
+      }
+    },
+    {
+      "identity" : "swift-package-manager-google-user-messaging-platform",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git",
+      "state" : {
+        "revision" : "13b248eaa73b7826f0efb1bcf455e251d65ecb1b",
+        "version" : "3.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}
