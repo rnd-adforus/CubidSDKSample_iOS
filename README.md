@@ -33,9 +33,9 @@ CuBidKit 1.2.1 이상부터 Swift Package Manager를 추가 지원 합니다.  <
   use_frameworks!
 
   pod 'CuBidKit', '1.2.1' # Core module
-  pod 'UAdKit', '2.5.0' # Adapter module
+  pod 'UAdKit', '2.5.1' # Adapter module
   pod 'UPanKit/Adapters/Admob', '1.5.1' # Adapter module + subspec 
-  pod 'CubeXKit', '1.1.1' # Adapter module
+  pod 'CubeXKit', '1.1.2' # Adapter module
 ``` 
 </br>
 
