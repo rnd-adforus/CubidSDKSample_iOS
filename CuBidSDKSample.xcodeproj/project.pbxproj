@@ -30,10 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1024AD49AB78C0A2B627C62C /* Pods-CuBidSDKSample-CuBidSDKSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuBidSDKSample-CuBidSDKSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2212D7E1DC9550604B642E07 /* Pods_CuBidSDKSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CuBidSDKSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF754747DA50AB87564974F /* Pods_CuBidSDKSample_CuBidSDKSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CuBidSDKSample_CuBidSDKSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A95DEB7849A0CD9C9F365FC /* Pods-CuBidSDKSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuBidSDKSample.debug.xcconfig"; path = "Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample.debug.xcconfig"; sourceTree = "<group>"; };
 		594E7EE22E853A5700765686 /* CuBidSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuBidSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		594E7EF82E853A5800765686 /* CuBidSDKSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuBidSDKSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		594E7F022E853A5800765686 /* CuBidSDKSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuBidSDKSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,11 +44,7 @@
 		59D6F6292EBF3FA700A53409 /* UPanKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UPanKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E017D72EB9EFF600CE696D /* UPanKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UPanKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E02C692EBC287800CE696D /* CuBidKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CuBidKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		84B91E1E55F3301E21B3E9E2 /* Pods-CuBidSDKSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuBidSDKSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-CuBidSDKSampleTests/Pods-CuBidSDKSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D2CB01AF9EB4AE6BF66EA4E /* Pods-CuBidSDKSample-CuBidSDKSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuBidSDKSample-CuBidSDKSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		9EC21684704766447D6ABB74 /* Pods-CuBidSDKSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuBidSDKSampleTests.release.xcconfig"; path = "Target Support Files/Pods-CuBidSDKSampleTests/Pods-CuBidSDKSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		C0A91C4FE95DA467139A9F44 /* Pods_CuBidSDKSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CuBidSDKSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D80F57A6D9A87EDD2D33879E /* Pods-CuBidSDKSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuBidSDKSample.release.xcconfig"; path = "Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -138,7 +132,6 @@
 				594E7EFB2E853A5800765686 /* CuBidSDKSampleTests */,
 				594E7F052E853A5800765686 /* CuBidSDKSampleUITests */,
 				594E7EE32E853A5700765686 /* Products */,
-				970EFAD28BDF0E696192CE47 /* Pods */,
 				279F240F9DB3AA89D78746B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -151,19 +144,6 @@
 				594E7F022E853A5800765686 /* CuBidSDKSampleUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		970EFAD28BDF0E696192CE47 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4A95DEB7849A0CD9C9F365FC /* Pods-CuBidSDKSample.debug.xcconfig */,
-				D80F57A6D9A87EDD2D33879E /* Pods-CuBidSDKSample.release.xcconfig */,
-				1024AD49AB78C0A2B627C62C /* Pods-CuBidSDKSample-CuBidSDKSampleUITests.debug.xcconfig */,
-				9D2CB01AF9EB4AE6BF66EA4E /* Pods-CuBidSDKSample-CuBidSDKSampleUITests.release.xcconfig */,
-				84B91E1E55F3301E21B3E9E2 /* Pods-CuBidSDKSampleTests.debug.xcconfig */,
-				9EC21684704766447D6ABB74 /* Pods-CuBidSDKSampleTests.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -483,7 +463,6 @@
 /* Begin XCBuildConfiguration section */
 		594E7F0C2E853A5800765686 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A95DEB7849A0CD9C9F365FC /* Pods-CuBidSDKSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -515,7 +494,6 @@
 		};
 		594E7F0D2E853A5800765686 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D80F57A6D9A87EDD2D33879E /* Pods-CuBidSDKSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -668,7 +646,6 @@
 		};
 		594E7F112E853A5800765686 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84B91E1E55F3301E21B3E9E2 /* Pods-CuBidSDKSampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -688,7 +665,6 @@
 		};
 		594E7F122E853A5800765686 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EC21684704766447D6ABB74 /* Pods-CuBidSDKSampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -708,7 +684,6 @@
 		};
 		594E7F142E853A5800765686 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1024AD49AB78C0A2B627C62C /* Pods-CuBidSDKSample-CuBidSDKSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -726,7 +701,6 @@
 		};
 		594E7F152E853A5800765686 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D2CB01AF9EB4AE6BF66EA4E /* Pods-CuBidSDKSample-CuBidSDKSampleUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
