@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E8E7A2DD08FC27DC760D505 /* Pods_CuBidSDKSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A91C4FE95DA467139A9F44 /* Pods_CuBidSDKSample.framework */; };
 		4DC8CFCFE830B16E31C073C0 /* Pods_CuBidSDKSample_CuBidSDKSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF754747DA50AB87564974F /* Pods_CuBidSDKSample_CuBidSDKSampleUITests.framework */; };
-		59F512D92EEAF6E700A3AB3C /* Pods_CuBidSDKSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A91C4FE95DA467139A9F44 /* Pods_CuBidSDKSample.framework */; };
-		59F512DA2EEAF6E700A3AB3C /* Pods_CuBidSDKSample.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C0A91C4FE95DA467139A9F44 /* Pods_CuBidSDKSample.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9C20E4B14771A956B852DF7B /* Pods_CuBidSDKSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2212D7E1DC9550604B642E07 /* Pods_CuBidSDKSampleTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,20 +28,6 @@
 			remoteInfo = CuBidSDKSample;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		59F512D82EEAF6E400A3AB3C /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				59F512DA2EEAF6E700A3AB3C /* Pods_CuBidSDKSample.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1024AD49AB78C0A2B627C62C /* Pods-CuBidSDKSample-CuBidSDKSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuBidSDKSample-CuBidSDKSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59F512D92EEAF6E700A3AB3C /* Pods_CuBidSDKSample.framework in Frameworks */,
+				3E8E7A2DD08FC27DC760D505 /* Pods_CuBidSDKSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,8 +177,8 @@
 				594E7EDE2E853A5700765686 /* Sources */,
 				594E7EDF2E853A5700765686 /* Frameworks */,
 				594E7EE02E853A5700765686 /* Resources */,
-				59F512D82EEAF6E400A3AB3C /* Embed Frameworks */,
-				0A95149D6D64BA625A8F9BFE /* [CP] Copy Pods Resources */,
+				E2A153544FBE379F5FDC1E47 /* [CP] Copy Pods Resources */,
+				6531FAE9B25A394A777519C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,7 +222,8 @@
 				594E7EFE2E853A5800765686 /* Sources */,
 				594E7EFF2E853A5800765686 /* Frameworks */,
 				594E7F002E853A5800765686 /* Resources */,
-				C00C70D6C21C7AACE5FDD351 /* [CP] Copy Pods Resources */,
+				6C8E872835DF587F703D899B /* [CP] Copy Pods Resources */,
+				2FA09396324DE9423F7E05BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -321,21 +307,55 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0A95149D6D64BA625A8F9BFE /* [CP] Copy Pods Resources */ = {
+		2FA09396324DE9423F7E05BA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6531FAE9B25A394A777519C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C8E872835DF587F703D899B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		73C1FCDBEBAD27AC76D11541 /* [CP] Check Pods Manifest.lock */ = {
@@ -360,23 +380,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C00C70D6C21C7AACE5FDD351 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C288EE3D5795835307967DA7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -397,6 +400,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2A153544FBE379F5FDC1E47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F941C0E7CFC09711A44A69C5 /* [CP] Check Pods Manifest.lock */ = {
