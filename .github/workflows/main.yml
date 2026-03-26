@@ -1,0 +1,50 @@
+name: Sync README to All Branches
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'README.md'
+
+jobs:
+  sync-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 레포지토리에 쓸 권한을 명시적으로 요청 (404 방지)
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Sync README to other branches
+        run: |
+          # 1. 신분증 설정
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 2. 메인을 제외한 원격 브랜치 목록 가져오기
+          BRANCHES=$(git branch -r | grep -v '\->' | grep -v 'origin/main' | sed 's/origin\///g' | xargs)
+          
+          for branch in $BRANCHES; do
+            echo "Working on branch: $branch"
+            
+            # 브랜치로 이동 (없으면 생성하며 체크아웃)
+            git checkout $branch || git checkout -b $branch origin/$branch
+            
+            # 메인 브랜치의 README만 쏙 빼오기
+            git checkout main -- README.md
+            
+            # 변경사항이 있는지 확인 후 커밋/푸시
+            if [[ -n $(git status -s README.md) ]]; then
+              git add README.md
+              git commit -m "docs: sync README.md from main"
+              git push origin $branch
+              echo "✅ Synced to $branch"
+            else
+              echo "⏭️ No changes for $branch"
+            fi
+          done
