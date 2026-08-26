@@ -178,7 +178,7 @@
 				594E7EDF2E853A5700765686 /* Frameworks */,
 				594E7EE02E853A5700765686 /* Resources */,
 				E2A153544FBE379F5FDC1E47 /* [CP] Copy Pods Resources */,
-				6531FAE9B25A394A777519C8 /* [CP] Embed Pods Frameworks */,
+				E9B577F8E9079824C76D3CD1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,7 +223,7 @@
 				594E7EFF2E853A5800765686 /* Frameworks */,
 				594E7F002E853A5800765686 /* Resources */,
 				6C8E872835DF587F703D899B /* [CP] Copy Pods Resources */,
-				2FA09396324DE9423F7E05BA /* [CP] Embed Pods Frameworks */,
+				0A7FEDF3841DFD84929F8A6E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,7 +307,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2FA09396324DE9423F7E05BA /* [CP] Embed Pods Frameworks */ = {
+		0A7FEDF3841DFD84929F8A6E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,30 +315,17 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6531FAE9B25A394A777519C8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6C8E872835DF587F703D899B /* [CP] Copy Pods Resources */ = {
@@ -349,9 +336,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -410,13 +401,38 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9B577F8E9079824C76D3CD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F941C0E7CFC09711A44A69C5 /* [CP] Check Pods Manifest.lock */ = {
@@ -493,6 +509,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CuBidSDKSample/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "서비스 품질 향상과 맞춤형 콘텐츠 제공을 위해 사용자의 기기 정보를 활용합니다.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -525,6 +542,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CuBidSDKSample/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "서비스 품질 향상과 맞춤형 콘텐츠 제공을 위해 사용자의 기기 정보를 활용합니다.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
