@@ -1,0 +1,105 @@
+{
+  "originHash" : "55be0f95933b70a4cc3d2e03ae79af8316284b1a176ac1fd1613c6f0733871c7",
+  "pins" : [
+    {
+      "identity" : "adsglobalpackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bytedance/AdsGlobalPackage.git",
+      "state" : {
+        "revision" : "e2d9f0850c7f9ce6c3d1256208ca0c00418dd259",
+        "version" : "8.1.1-release.1"
+      }
+    },
+    {
+      "identity" : "applovin-max-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git",
+      "state" : {
+        "revision" : "b5acf713209298059bb2f09b22d84d523454bc7b",
+        "version" : "13.5.1"
+      }
+    },
+    {
+      "identity" : "cubid-ios-sdk-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rnd-adforus/cubid-ios-sdk-spm",
+      "state" : {
+        "revision" : "f6d3c590451c13c1b3950b0c866b0f30213f932a",
+        "version" : "1.2.1"
+      }
+    },
+    {
+      "identity" : "cubid-mediation-admob-ios-sdk-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rnd-adforus/cubid-mediation-admob-ios-sdk-spm.git",
+      "state" : {
+        "revision" : "457d9396ff6199c708700f84f951ff8073853009",
+        "version" : "2.6.3"
+      }
+    },
+    {
+      "identity" : "cubid-mediation-applovin-ios-sdk-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rnd-adforus/cubid-mediation-applovin-ios-sdk-spm.git",
+      "state" : {
+        "revision" : "07e6fbeeef66120db4ccf2f834833c214d840cee",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "cubid-mediation-cubex-ios-sdk-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rnd-adforus/cubid-mediation-cubex-ios-sdk-spm.git",
+      "state" : {
+        "revision" : "c5b70b2a7e2fbc783d45ce032eb6fa7473220a51",
+        "version" : "1.1.2"
+      }
+    },
+    {
+      "identity" : "cubid-mediation-pangle-ios-sdk-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rnd-adforus/cubid-mediation-pangle-ios-sdk-spm.git",
+      "state" : {
+        "revision" : "f1710574da7b4931a6a476f441a1e4c0a0c99296",
+        "version" : "1.6.2"
+      }
+    },
+    {
+      "identity" : "googleads-mobile-ios-mediation-applovin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/googleads-mobile-ios-mediation-applovin.git",
+      "state" : {
+        "revision" : "94d043fc261ebdccf6ab4058fd9c9c05de8cbae9",
+        "version" : "13.5.100"
+      }
+    },
+    {
+      "identity" : "googleads-mobile-ios-mediation-pangle",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/googleads-mobile-ios-mediation-pangle.git",
+      "state" : {
+        "revision" : "36bbfd567fe57e8e2a10e3f0e96f82fdc903fa98",
+        "version" : "8.1.10100"
+      }
+    },
+    {
+      "identity" : "swift-package-manager-google-mobile-ads",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
+      "state" : {
+        "revision" : "166a2dcff33c893b22e4bfccbbdd0ed00a248c24",
+        "version" : "13.5.0"
+      }
+    },
+    {
+      "identity" : "swift-package-manager-google-user-messaging-platform",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git",
+      "state" : {
+        "revision" : "13b248eaa73b7826f0efb1bcf455e251d65ecb1b",
+        "version" : "3.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}
