@@ -8,28 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		20AFA0DF6461597C92641928 /* Pods_CuBidSDKSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3A222075BF33FB099F6699 /* Pods_CuBidSDKSampleTests.framework */; };
-		592207C83041D080000D10E5 /* CubeXKit in Frameworks */ = {isa = PBXBuildFile; productRef = 592207C73041D080000D10E5 /* CubeXKit */; };
-		5953C24A30453080003B9E40 /* Admob-Mediation-Applovin in Frameworks */ = {isa = PBXBuildFile; productRef = 5953C24930453080003B9E40 /* Admob-Mediation-Applovin */; };
-		5953C24C30453080003B9E40 /* UALKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5953C24B30453080003B9E40 /* UALKit */; };
-		59B7CAB330453B920085262D /* UAdKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59B7CAB230453B920085262D /* UAdKit */; };
-		59B7CAB630453BBF0085262D /* CubeXKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59B7CAB530453BBF0085262D /* CubeXKit */; };
-		59B7CAB930453BEC0085262D /* Admob-Mediation-Pangle in Frameworks */ = {isa = PBXBuildFile; productRef = 59B7CAB830453BEC0085262D /* Admob-Mediation-Pangle */; };
-		59B7CABB30453BEC0085262D /* UPanKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59B7CABA30453BEC0085262D /* UPanKit */; };
-		59B7CABE30453C8C0085262D /* Admob-Mediation-Applovin in Frameworks */ = {isa = PBXBuildFile; productRef = 59B7CABD30453C8C0085262D /* Admob-Mediation-Applovin */; };
-		59B7CAC030453C8C0085262D /* UALKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59B7CABF30453C8C0085262D /* UALKit */; };
-		59B7CAC330453D280085262D /* CuBidKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59B7CAC230453D280085262D /* CuBidKit */; };
-		59CF352D304532940059BD36 /* Admob-Mediation-Applovin in Frameworks */ = {isa = PBXBuildFile; productRef = 59CF352C304532940059BD36 /* Admob-Mediation-Applovin */; };
-		59CF352F304532940059BD36 /* UALKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59CF352E304532940059BD36 /* UALKit */; };
-		59CF3532304532AB0059BD36 /* CuBidKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59CF3531304532AB0059BD36 /* CuBidKit */; };
-		59CF3535304532C00059BD36 /* UAdKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59CF3534304532C00059BD36 /* UAdKit */; };
-		59CF3538304532DC0059BD36 /* Admob-Mediation-Pangle in Frameworks */ = {isa = PBXBuildFile; productRef = 59CF3537304532DC0059BD36 /* Admob-Mediation-Pangle */; };
-		59CF353A304532DC0059BD36 /* UPanKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59CF3539304532DC0059BD36 /* UPanKit */; };
-		59FFD3A73041D47B00C89323 /* CuBidKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59FFD3A63041D47B00C89323 /* CuBidKit */; };
-		59FFD3AA3041D5FE00C89323 /* Admob-Mediation-Pangle in Frameworks */ = {isa = PBXBuildFile; productRef = 59FFD3A93041D5FE00C89323 /* Admob-Mediation-Pangle */; };
-		59FFD3AC3041D5FE00C89323 /* UPanKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59FFD3AB3041D5FE00C89323 /* UPanKit */; };
-		59FFD3AF3041D61E00C89323 /* UAdKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59FFD3AE3041D61E00C89323 /* UAdKit */; };
-		59FFD3B23041D63C00C89323 /* Admob-Mediation-Applovin in Frameworks */ = {isa = PBXBuildFile; productRef = 59FFD3B13041D63C00C89323 /* Admob-Mediation-Applovin */; };
-		59FFD3B43041D63C00C89323 /* UALKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59FFD3B33041D63C00C89323 /* UALKit */; };
 		A06D577A7C7294E435553BAC /* Pods_CuBidSDKSample_CuBidSDKSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB354147C776D317751255D /* Pods_CuBidSDKSample_CuBidSDKSampleUITests.framework */; };
 		C30BD154DE97BEBB58E1399A /* Pods_CuBidSDKSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AE6D1A84A1474B49148F54 /* Pods_CuBidSDKSample.framework */; };
 /* End PBXBuildFile section */
@@ -115,28 +93,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59CF3535304532C00059BD36 /* UAdKit in Frameworks */,
-				59B7CAB630453BBF0085262D /* CubeXKit in Frameworks */,
-				5953C24A30453080003B9E40 /* Admob-Mediation-Applovin in Frameworks */,
-				59FFD3B23041D63C00C89323 /* Admob-Mediation-Applovin in Frameworks */,
-				59FFD3AF3041D61E00C89323 /* UAdKit in Frameworks */,
-				59CF352F304532940059BD36 /* UALKit in Frameworks */,
-				592207C83041D080000D10E5 /* CubeXKit in Frameworks */,
-				59CF3538304532DC0059BD36 /* Admob-Mediation-Pangle in Frameworks */,
-				59FFD3B43041D63C00C89323 /* UALKit in Frameworks */,
-				59B7CAC330453D280085262D /* CuBidKit in Frameworks */,
-				59B7CAB330453B920085262D /* UAdKit in Frameworks */,
-				59B7CAC030453C8C0085262D /* UALKit in Frameworks */,
-				59B7CAB930453BEC0085262D /* Admob-Mediation-Pangle in Frameworks */,
-				59FFD3AA3041D5FE00C89323 /* Admob-Mediation-Pangle in Frameworks */,
-				59CF3532304532AB0059BD36 /* CuBidKit in Frameworks */,
-				59CF352D304532940059BD36 /* Admob-Mediation-Applovin in Frameworks */,
-				59FFD3A73041D47B00C89323 /* CuBidKit in Frameworks */,
-				59B7CABB30453BEC0085262D /* UPanKit in Frameworks */,
-				59B7CABE30453C8C0085262D /* Admob-Mediation-Applovin in Frameworks */,
-				59CF353A304532DC0059BD36 /* UPanKit in Frameworks */,
-				5953C24C30453080003B9E40 /* UALKit in Frameworks */,
-				59FFD3AC3041D5FE00C89323 /* UPanKit in Frameworks */,
 				C30BD154DE97BEBB58E1399A /* Pods_CuBidSDKSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,7 +167,6 @@
 				C845649D520C84699158EE5B /* Pods-CuBidSDKSampleTests.debug.xcconfig */,
 				F974E579BD8C9005A626EF90 /* Pods-CuBidSDKSampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -226,8 +181,8 @@
 				594E7EDE2E853A5700765686 /* Sources */,
 				594E7EDF2E853A5700765686 /* Frameworks */,
 				594E7EE02E853A5700765686 /* Resources */,
-				74EAD64ADEFFDD85874AA77E /* [CP] Embed Pods Frameworks */,
 				233071A1D90175AC5B990D78 /* [CP] Copy Pods Resources */,
+				AF70D0C9B047F8787EB5564C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -271,8 +226,8 @@
 				594E7EFE2E853A5800765686 /* Sources */,
 				594E7EFF2E853A5800765686 /* Frameworks */,
 				594E7F002E853A5800765686 /* Resources */,
-				EE47AF59AD32AF547A10BE63 /* [CP] Embed Pods Frameworks */,
 				A8BF2EA6187CB3A17D045527 /* [CP] Copy Pods Resources */,
+				BD5871F6F4F9359FFC94A42B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -395,23 +350,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		74EAD64ADEFFDD85874AA77E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A8BF2EA6187CB3A17D045527 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,6 +365,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF70D0C9B047F8787EB5564C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample/Pods-CuBidSDKSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B9472556695805E0917E85FB /* [CP] Check Pods Manifest.lock */ = {
@@ -451,6 +406,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BD5871F6F4F9359FFC94A42B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E7666E2D3CCDAF7657239829 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -471,23 +443,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EE47AF59AD32AF547A10BE63 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CuBidSDKSample-CuBidSDKSampleUITests/Pods-CuBidSDKSample-CuBidSDKSampleUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -554,8 +509,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.0;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = adforus.CuBidSDKSample;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adforus.CuBidSDKSample-private";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -591,8 +549,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.0;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = cubid.adforus.com.dev;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adforus.CuBidSDKSample-private";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -841,147 +802,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		59B7CAB130453B920085262D /* XCRemoteSwiftPackageReference "cubid-mediation-admob-ios-sdk-spm" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rnd-adforus/cubid-mediation-admob-ios-sdk-spm.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.6.3;
-			};
-		};
-		59B7CAB430453BBF0085262D /* XCRemoteSwiftPackageReference "cubid-mediation-cubex-ios-sdk-spm" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rnd-adforus/cubid-mediation-cubex-ios-sdk-spm.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.1.2;
-			};
-		};
-		59B7CAB730453BEC0085262D /* XCRemoteSwiftPackageReference "cubid-mediation-pangle-ios-sdk-spm" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rnd-adforus/cubid-mediation-pangle-ios-sdk-spm.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.6.2;
-			};
-		};
-		59B7CABC30453C8C0085262D /* XCRemoteSwiftPackageReference "cubid-mediation-applovin-ios-sdk-spm" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rnd-adforus/cubid-mediation-applovin-ios-sdk-spm.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.2;
-			};
-		};
-		59B7CAC130453D280085262D /* XCRemoteSwiftPackageReference "cubid-ios-sdk-spm" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rnd-adforus/cubid-ios-sdk-spm";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		592207C73041D080000D10E5 /* CubeXKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = CubeXKit;
-		};
-		5953C24930453080003B9E40 /* Admob-Mediation-Applovin */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = "Admob-Mediation-Applovin";
-		};
-		5953C24B30453080003B9E40 /* UALKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = UALKit;
-		};
-		59B7CAB230453B920085262D /* UAdKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 59B7CAB130453B920085262D /* XCRemoteSwiftPackageReference "cubid-mediation-admob-ios-sdk-spm" */;
-			productName = UAdKit;
-		};
-		59B7CAB530453BBF0085262D /* CubeXKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 59B7CAB430453BBF0085262D /* XCRemoteSwiftPackageReference "cubid-mediation-cubex-ios-sdk-spm" */;
-			productName = CubeXKit;
-		};
-		59B7CAB830453BEC0085262D /* Admob-Mediation-Pangle */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 59B7CAB730453BEC0085262D /* XCRemoteSwiftPackageReference "cubid-mediation-pangle-ios-sdk-spm" */;
-			productName = "Admob-Mediation-Pangle";
-		};
-		59B7CABA30453BEC0085262D /* UPanKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 59B7CAB730453BEC0085262D /* XCRemoteSwiftPackageReference "cubid-mediation-pangle-ios-sdk-spm" */;
-			productName = UPanKit;
-		};
-		59B7CABD30453C8C0085262D /* Admob-Mediation-Applovin */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 59B7CABC30453C8C0085262D /* XCRemoteSwiftPackageReference "cubid-mediation-applovin-ios-sdk-spm" */;
-			productName = "Admob-Mediation-Applovin";
-		};
-		59B7CABF30453C8C0085262D /* UALKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 59B7CABC30453C8C0085262D /* XCRemoteSwiftPackageReference "cubid-mediation-applovin-ios-sdk-spm" */;
-			productName = UALKit;
-		};
-		59B7CAC230453D280085262D /* CuBidKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 59B7CAC130453D280085262D /* XCRemoteSwiftPackageReference "cubid-ios-sdk-spm" */;
-			productName = CuBidKit;
-		};
-		59CF352C304532940059BD36 /* Admob-Mediation-Applovin */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = "Admob-Mediation-Applovin";
-		};
-		59CF352E304532940059BD36 /* UALKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = UALKit;
-		};
-		59CF3531304532AB0059BD36 /* CuBidKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = CuBidKit;
-		};
-		59CF3534304532C00059BD36 /* UAdKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = UAdKit;
-		};
-		59CF3537304532DC0059BD36 /* Admob-Mediation-Pangle */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = "Admob-Mediation-Pangle";
-		};
-		59CF3539304532DC0059BD36 /* UPanKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = UPanKit;
-		};
-		59FFD3A63041D47B00C89323 /* CuBidKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = CuBidKit;
-		};
-		59FFD3A93041D5FE00C89323 /* Admob-Mediation-Pangle */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = "Admob-Mediation-Pangle";
-		};
-		59FFD3AB3041D5FE00C89323 /* UPanKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = UPanKit;
-		};
-		59FFD3AE3041D61E00C89323 /* UAdKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = UAdKit;
-		};
-		59FFD3B13041D63C00C89323 /* Admob-Mediation-Applovin */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = "Admob-Mediation-Applovin";
-		};
-		59FFD3B33041D63C00C89323 /* UALKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = UALKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 594E7EDA2E853A5700765686 /* Project object */;
 }
