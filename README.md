@@ -60,6 +60,10 @@ https://github.com/rnd-adforus/cubid-mediation-admob-ios-sdk-spm.git
 ```ruby
 https://github.com/rnd-adforus/cubid-mediation-pangle-ios-sdk-spm.git
 ```
+- CuBid-Mediation-AppLovin(UAL)
+```ruby
+https://github.com/rnd-adforus/cubid-mediation-applovin-ios-sdk-spm.git
+```
 - CuBid-Mediation-CubeX(CubeX)
 ```ruby
 https://github.com/rnd-adforus/cubid-mediation-cubex-ios-sdk-spm.git
