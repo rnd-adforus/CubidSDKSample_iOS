@@ -1,4 +1,9 @@
 # CuBid SDK For iOS
+
+> 주의! <br>
+> CocoaPods Trunk가 2026년 12월 2일부터 읽기 전용으로 전환됨에 따라, CuBid iOS SDK는 CuBidKit 1.4.0부터 CocoaPods 배포를 중단하고 SPM으로만 제공합니다(기존 설치 버전은 계속 사용 가능).
+> [SPM 가이드 바로가기](https://github.com/rnd-adforus/CubidSDKSample_iOS/tree/SPM)
+
 ## 변경사항
 - [버전 변경 기록](https://github.com/rnd-adforus/CubidSDKSample_iOS/releases)
 
