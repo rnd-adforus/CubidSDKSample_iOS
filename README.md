@@ -20,6 +20,8 @@
    4-4. [전면](#chapter-4-4)  
 5. [Privacy](#chapter-5)   
    5-1. [아동 타겟 설정](#chapter-5-1)  
+6. [리워드 광고 서버 측 확인](#chapter-6)   
+   6-1. [서버 사이드 콜백 전달 커스텀 값 설정](#chapter-6-1)
 ---  
 
 ### 1. Configuration 설정 <a id="chapter-1"/>
@@ -32,11 +34,11 @@ CuBidKit 1.2.1 이상부터 Swift Package Manager를 추가 지원 합니다.  <
 # [Podfile] 
   use_frameworks!
 
-  pod 'CuBidKit', '1.3.2' # Core module
-  pod 'UAdKit', '2.6.3' # Adapter module
-  pod 'UPanKit/Adapters/Admob', '1.6.2' # Adapter module + subspec 
+  pod 'CuBidKit', '1.4.0' # Core module
+  pod 'UAdKit', '2.7.0' # Adapter module
+  pod 'UPanKit/Adapters/Admob', '1.7.0' # Adapter module + subspec 
   pod 'CubeXKit', '1.2.2' # Adapter module
-  pod 'UALKit/Adapters/Admob', '1.0.2' # Adapter module + subspec 
+  pod 'UALKit/Adapters/Admob', '1.1.0' # Adapter module + subspec 
 ``` 
 </br>
 
@@ -1049,6 +1051,16 @@ cubidInterstitial = nil
 ```swift
 //swift
 CuBidSettings.isChild = true
+```
+<br>
+
+### 6. 리워드 광고 서버 측 확인 <a id="chapter-6">
+#### [서버 사이드 콜백 전달 커스텀 값 설정] <a id="chapter-6-1">
+리워드 광고의 서버 측 확인 기능을 설정하시는 경우 전달 받으실 인자값을 설정합니다. 이 설정은 CuBid로 송출하는 하위 광고 네트워크에 일괄 적용됩니다. <br>
+CuBidReward 인스턴스 loadAd 메소드의 매개값으로 서버측으로 전달 받을 값을 입력합니다. 이 값은 콜백 URL "custom_data" 파람의 값으로 전달됩니다.
+```swift
+//swift
+reward.loadAd(extra: "extra value")
 ```
 <br>
 
