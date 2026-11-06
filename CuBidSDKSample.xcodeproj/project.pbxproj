@@ -16,6 +16,8 @@
 		59091D502F750D73007685E7 /* Admob-Mediation-Pangle in Frameworks */ = {isa = PBXBuildFile; productRef = 59091D4F2F750D73007685E7 /* Admob-Mediation-Pangle */; };
 		59091D522F750D73007685E7 /* UPanKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59091D512F750D73007685E7 /* UPanKit */; };
 		59091D552F750D7D007685E7 /* CuBidKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59091D542F750D7D007685E7 /* CuBidKit */; };
+		59483CE0309DC68A0085772B /* Admob-Mediation-Applovin in Frameworks */ = {isa = PBXBuildFile; productRef = 59483CDF309DC68A0085772B /* Admob-Mediation-Applovin */; };
+		59483CE2309DC68A0085772B /* UALKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59483CE1309DC68A0085772B /* UALKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,9 +91,11 @@
 				59091D442F750C93007685E7 /* UAdKit in Frameworks */,
 				59091D412F750C7C007685E7 /* UPanKit in Frameworks */,
 				59091D3E2F750C6A007685E7 /* CuBidKit in Frameworks */,
+				59483CE2309DC68A0085772B /* UALKit in Frameworks */,
 				59091D522F750D73007685E7 /* UPanKit in Frameworks */,
 				59091D552F750D7D007685E7 /* CuBidKit in Frameworks */,
 				59091D472F750CA1007685E7 /* CubeXKit in Frameworks */,
+				59483CE0309DC68A0085772B /* Admob-Mediation-Applovin in Frameworks */,
 				59091D4D2F750D61007685E7 /* UAdKit in Frameworks */,
 				59091D4A2F750D56007685E7 /* CubeXKit in Frameworks */,
 				59091D502F750D73007685E7 /* Admob-Mediation-Pangle in Frameworks */,
@@ -254,6 +258,7 @@
 				59091D4B2F750D61007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-admob-ios-sdk-spm" */,
 				59091D4E2F750D72007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-pangle-ios-sdk-spm" */,
 				59091D532F750D7D007685E7 /* XCRemoteSwiftPackageReference "cubid-ios-sdk-spm" */,
+				59483CDE309DC68A0085772B /* XCRemoteSwiftPackageReference "cubid-mediation-applovin-ios-sdk-spm" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 594E7EE32E853A5700765686 /* Products */;
@@ -340,6 +345,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CuBidSDKSample/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "서비스 품질 향상과 맞춤형 콘텐츠 제공을 위해 사용자의 기기 정보를 활용합니다.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -371,6 +377,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CuBidSDKSample/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "서비스 품질 향상과 맞춤형 콘텐츠 제공을 위해 사용자의 기기 정보를 활용합니다.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -663,7 +670,7 @@
 			repositoryURL = "https://github.com/rnd-adforus/cubid-mediation-cubex-ios-sdk-spm";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.1.2;
+				minimumVersion = 1.2.3;
 			};
 		};
 		59091D4B2F750D61007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-admob-ios-sdk-spm" */ = {
@@ -671,7 +678,7 @@
 			repositoryURL = "https://github.com/rnd-adforus/cubid-mediation-admob-ios-sdk-spm";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.5.1;
+				minimumVersion = 2.7.0;
 			};
 		};
 		59091D4E2F750D72007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-pangle-ios-sdk-spm" */ = {
@@ -679,7 +686,7 @@
 			repositoryURL = "https://github.com/rnd-adforus/cubid-mediation-pangle-ios-sdk-spm";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.5.1;
+				minimumVersion = 1.7.0;
 			};
 		};
 		59091D532F750D7D007685E7 /* XCRemoteSwiftPackageReference "cubid-ios-sdk-spm" */ = {
@@ -687,7 +694,15 @@
 			repositoryURL = "https://github.com/rnd-adforus/cubid-ios-sdk-spm";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.1;
+				minimumVersion = 1.4.0;
+			};
+		};
+		59483CDE309DC68A0085772B /* XCRemoteSwiftPackageReference "cubid-mediation-applovin-ios-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rnd-adforus/cubid-mediation-applovin-ios-sdk-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -737,6 +752,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 59091D532F750D7D007685E7 /* XCRemoteSwiftPackageReference "cubid-ios-sdk-spm" */;
 			productName = CuBidKit;
+		};
+		59483CDF309DC68A0085772B /* Admob-Mediation-Applovin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59483CDE309DC68A0085772B /* XCRemoteSwiftPackageReference "cubid-mediation-applovin-ios-sdk-spm" */;
+			productName = "Admob-Mediation-Applovin";
+		};
+		59483CE1309DC68A0085772B /* UALKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59483CDE309DC68A0085772B /* XCRemoteSwiftPackageReference "cubid-mediation-applovin-ios-sdk-spm" */;
+			productName = UALKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
