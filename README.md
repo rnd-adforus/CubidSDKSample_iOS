@@ -26,24 +26,8 @@
 
 ### 1. Configuration 설정 <a id="chapter-1"/>
 CuBidKit 1.2.1 이상부터 Swift Package Manager를 추가 지원 합니다.  <br>
-다음의 CocoaPods과 Swift Package Manager 중 하나를  채택하여 의존서을 추가하여 주세요. <br>
 
 #### 1-1. Dependency Settings
-<b>[CocoaPods]</b><br>
-```ruby
-# [Podfile] 
-  use_frameworks!
-
-  pod 'CuBidKit', '1.4.0' # Core module
-  pod 'UAdKit', '2.7.0' # Adapter module
-  pod 'UPanKit/Adapters/Admob', '1.7.0' # Adapter module + subspec 
-  pod 'CubeXKit', '1.2.2' # Adapter module
-  pod 'UALKit/Adapters/Admob', '1.1.0' # Adapter module + subspec 
-``` 
-</br>
-
-OR<br>
-
 <b>[Swift Package Manager]</b><br>
 Xcode 네비게이션 메뉴에서 File > Add Package Dependencies 탭으로 이동하고 다음의 경로를 검색하여 각 의존성을 추가하여 주세요. <br> <br>
 <b>Core module</b>
@@ -63,6 +47,10 @@ https://github.com/rnd-adforus/cubid-mediation-pangle-ios-sdk-spm.git
 - CuBid-Mediation-AppLovin(UAL)
 ```ruby
 https://github.com/rnd-adforus/cubid-mediation-applovin-ios-sdk-spm.git
+```
+- CuBid-Mediation-DT-Exchanger(UFy)
+```ruby
+https://github.com/rnd-adforus/cubid-mediation-dt-exchanger-ios-sdk-spm.git
 ```
 - CuBid-Mediation-CubeX(CubeX)
 ```ruby
