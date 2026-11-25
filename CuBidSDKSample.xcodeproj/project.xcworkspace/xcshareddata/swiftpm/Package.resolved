@@ -1,5 +1,5 @@
 {
-  "originHash" : "939203bcba521c55b1fff626b4fc7bf4bb983bd5413ae112180f593169da34b4",
+  "originHash" : "fd41ffebdadf2207b56e7894bc671dd124275c77a4ac3fb1cd837ae897d2bdce",
   "pins" : [
     {
       "identity" : "adsglobalpackage",
@@ -56,9 +56,9 @@
       }
     },
     {
-      "identity" : "cubid-mediation-dt-exchanger-ios-sdk-spm",
+      "identity" : "cubid-mediation-dt-exchange-ios-sdk-spm",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/rnd-adforus/cubid-mediation-dt-exchanger-ios-sdk-spm.git",
+      "location" : "https://github.com/rnd-adforus/cubid-mediation-dt-exchange-ios-sdk-spm.git",
       "state" : {
         "revision" : "39e7c9e7d2a56d3cf7326162f7155c292af08ac0",
         "version" : "1.0.0"

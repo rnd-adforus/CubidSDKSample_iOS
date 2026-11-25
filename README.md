@@ -48,9 +48,9 @@ https://github.com/rnd-adforus/cubid-mediation-pangle-ios-sdk-spm.git
 ```ruby
 https://github.com/rnd-adforus/cubid-mediation-applovin-ios-sdk-spm.git
 ```
-- CuBid-Mediation-DT-Exchanger(UFy)
+- CuBid-Mediation-DT-Exchange(UFy)
 ```ruby
-https://github.com/rnd-adforus/cubid-mediation-dt-exchanger-ios-sdk-spm.git
+https://github.com/rnd-adforus/cubid-mediation-dt-exchange-ios-sdk-spm.git
 ```
 - CuBid-Mediation-CubeX(CubeX)
 ```ruby
